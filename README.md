@@ -1,21 +1,21 @@
-# Bitbucket Pipelines PHP 7.2 image
+# Bitbucket Pipelines PHP 7.3 image
 
-[![](https://images.microbadger.com/badges/version/pyguerder/bitbucket-pipelines-php72.svg)](https://microbadger.com/images/pyguerder/bitbucket-pipelines-php72 "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/pyguerder/bitbucket-pipelines-php72.svg)](https://microbadger.com/images/pyguerder/bitbucket-pipelines-php72 "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/pyguerder/bitbucket-pipelines-php73.svg)](https://microbadger.com/images/pyguerder/bitbucket-pipelines-php73 "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/pyguerder/bitbucket-pipelines-php73.svg)](https://microbadger.com/images/pyguerder/bitbucket-pipelines-php73 "Get your own image badge on microbadger.com")
 
 ## Based on Ubuntu 18.04
 
 ### Packages installed
 
-- `php7.2-zip`, `php7.2-xml`, `php7.2-mbstring`, `php7.2-curl`, `php7.2-json`, `php7.2-imap`, `php7.2-mysql`, `php7.2-tokenizer`, `php7.2-xdebug`, `php7.2-intl`, `php7.2-soap`, `php7.2-pdo`, `php7.2-cli` and `php7.2-gd`
+- `php7.3-zip`, `php7.3-xml`, `php7.3-mbstring`, `php7.3-curl`, `php7.3-json`, `php7.3-imap`, `php7.3-mysql`, `php7.3-tokenizer`, `php7.3-xdebug`, `php7.3-intl`, `php7.3-soap`, `php7.3-pdo`, `php7.3-cli` and `php7.3-gd`
 - wget, curl, zip
 - Composer
 - Mysql 5.7
-- NPM
+- Yarn
 
 ### Sample `bitbucket-pipelines.yml`
 
 ```YAML
-image: pyguerder/bitbucket-pipelines-php72
+image: pyguerder/bitbucket-pipelines-php73
 pipelines:
   default:
     - step:
