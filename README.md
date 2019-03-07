@@ -10,7 +10,7 @@
 - wget, curl, zip
 - Composer
 - Mysql 5.7
-- Yarn
+- Node + Yarn
 
 ### Sample `bitbucket-pipelines.yml`
 

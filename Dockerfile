@@ -30,6 +30,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
     mysql-server \
     curl \
     gnupg \
+    nodejs \
     --no-install-recommends && \
     add-apt-repository ppa:ondrej/php
 
