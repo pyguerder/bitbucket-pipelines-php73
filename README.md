@@ -6,7 +6,7 @@
 
 ### Packages installed
 
-- `php7.3-zip`, `php7.3-xml`, `php7.3-mbstring`, `php7.3-curl`, `php7.3-json`, `php7.3-imap`, `php7.3-mysql`, `php7.3-tokenizer`, `php7.3-xdebug`, `php7.3-intl`, `php7.3-soap`, `php7.3-pdo`, `php7.3-cli`, `php7.3-gd` and `php7.3-gmp`
+- `php7.3-zip`, `php7.3-xml`, `php7.3-mbstring`, `php7.3-curl`, `php7.3-json`, `php7.3-imap`, `php7.3-mysql`, `php7.3-tokenizer`, `php7.3-xdebug`, `php7.3-intl`, `php7.3-soap`, `php7.3-pdo`, `php7.3-cli`, `php7.3-gd`, `php7.3-gmp` and `php7.3-apcu`
 - wget, curl, unzip
 - Composer
 - Mysql 5.7
